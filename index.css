@@ -10,7 +10,65 @@ body {
 }
 
 .textBackground {
-    width: 300px;
-    height: 300px;
+    width: 1000px;
+    height: 200px;
     background-color: white;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 60px;
+    opacity: 30%;
+    display: block;
+}
+
+.cat1 {
+   height: 100px;
+   width: 100px;
+  
+   
+}
+.cat2 {
+    height: 100%;
+    width: 100%;
+   
+   
+}
+.cat3 {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+}
+
+.planet1 {
+    
+}
+.planet2 {
+    
+}
+
+.name{
+    
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    opacity: 50%;
+    height: 8%;
+    bottom: 0;
+    background-color: #363765;
+    align-items: center;
+
+    
+}
+
+.textFooter{
+    color: white;
+    bottom: 0;
+    position: fixed;
+    justify-content: center;
+    z-index: 100;
+    align-items: center;
+    text-align: center;
+    font-family: 'Common Pixel', sans-serif;
+                                                
 }
