@@ -3,15 +3,10 @@
     margin: 0;
 }
 
-.background {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+body {
+    background-image: url("./assets/imageBackground.gif");
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background: url("./assets/imageBackground.gif");
 }
 
 .textBackground {
