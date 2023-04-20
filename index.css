@@ -7,6 +7,7 @@ body {
     background-image: url("./assets/imageBackground.gif");
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .dark-cat {
@@ -59,15 +60,22 @@ body {
     align-items: center;
 }
 
-.textBackground {
-    width: 1000px;
-    height: 200px;
-    background-color: white;
-    margin: auto;
-    margin-top: 25%;
-    border-radius: 60px;
-    opacity: 30%;
-    display: block;
+.cat {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat img {
+    position: absolute;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    height: 300px;
 }
 
 footer {
