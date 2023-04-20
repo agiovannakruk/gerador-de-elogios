@@ -78,6 +78,42 @@ body {
     height: 300px;
 }
 
+.cat-with-planet {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.saturn-planet img {
+    position: absolute;
+
+    height: 350px;
+    transform: rotate(16deg);
+
+    right: 0;
+    bottom: 0;
+
+    margin-right: -180px;
+    margin-bottom: -80px;
+    z-index: -100;
+}
+
+.cat2 img {
+    position: absolute;
+    width: 250px;
+
+    right: 0;
+    bottom: 0;
+    
+    margin-bottom: 150px;
+}
+
+#textElogio {
+    color: red;
+    font-weight: 400;
+    font-family: 'Common Pixel', sans-serif;
+}
+
 footer {
     margin: 0px 0px 12px 12px;
     position: absolute;
